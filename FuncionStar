@@ -1,0 +1,20 @@
+private int FuncionStar(int Starin){
+  int Starout = 0;
+  
+  if (Starin >= 1 && Starin <= 10) {
+  	Starout = 1;
+  }
+  if (Starin >= 11 && Starin <= 20) {
+  	Starout = 2;
+  }
+  if (Starin >= 21 && Starin <= 30) {
+  	Starout = 3;
+  }
+  if (Starin >= 31 && Starin <= 40) {
+  	Starout = 4;
+  }
+  if (Starin >= 41 && Starin <= 50) {
+  	Starout = 5;
+  }
+      return Starout;
+}
