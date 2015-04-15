@@ -18,3 +18,14 @@ private int FuncionStar(int Starin){
   }
       return Starout;
 }
+
+// example //
+
+int min = 1;  // minim
+int max = 50; // max
+Random rdm = new Random(); // random funcion
+
+int rtest = rdm.nextInt(max - min + 1) + min; // create num rdm
+int rtest1 = FuncionStar(rtest); // 1~50 to 1~5 for use in switch, operatons, etc..
+String rl1f=String.valueOf(rtest1); // for use in Textview text
+
